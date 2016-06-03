@@ -14,11 +14,11 @@ Cookiecutter Django
 
 Powered by Cookiecutter_, Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly.
 
+See Cookiecutter Django Troubleshooting_ for advice about common errors and problems. 
+
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
 
-**Warning**: if you get the error "jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'now'." , please upgrade your cookiecutter version to >= 1.4 (see issue # 528_ )
-
-.. _528: https://github.com/pydanny/cookiecutter-django/issues/528#issuecomment-212650373
+.. _Troubleshooting: 
 
 Features
 ---------
@@ -98,8 +98,6 @@ Now run it against this repo::
 You'll be prompted for some values. Provide them, then a Django project will be created for you.
 
 **Warning**: After this point, change 'Daniel Greenfeld', 'pydanny', etc to your own information.
-
-**Warning**: project_slug must be a valid Python module name or you will have issues on imports.
 
 Answer the prompts with your own desired options_. For example::
 
